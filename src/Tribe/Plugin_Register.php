@@ -27,6 +27,7 @@ class Plugin_Register extends Abstract_Plugin_Register {
 	protected $dependencies = [
 		'parent-dependencies' => [
 			'Tribe__Events__Main' => '5.1.0-dev',
-		],
+			'Tribe__Events__Pro__Main' => '5.1.1-dev',
+],
 	];
 }
