@@ -28,7 +28,7 @@ class Plugin_Register extends Abstract_Plugin_Register {
 		'parent-dependencies' => [
 			'Tribe__Events__Main' => '5.1.0-dev',
 			'Tribe__Events__Pro__Main' => '5.1.1-dev',
-			'Tribe__Tickets__Main' => '4.11.2-dev',
+			'Tribe__Tickets__Main' => '4.11.3-dev',
 		],
 	];
 }
