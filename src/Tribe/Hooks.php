@@ -21,6 +21,8 @@
 
 namespace Tribe\Extensions\The_Bacon_Challenge;
 
+use TEC\Common\Contracts\Service_Provider;
+
 /**
  * Class Hooks.
  *
@@ -28,7 +30,7 @@ namespace Tribe\Extensions\The_Bacon_Challenge;
  *
  * @package Tribe\Extensions\The_Bacon_Challenge;
  */
-class Hooks extends \tad_DI52_ServiceProvider {
+class Hooks extends Service_Provider {
 
 	/**
 	 * Binds and sets up implementations.

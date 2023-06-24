@@ -1,6 +1,8 @@
 <?php
 namespace Tribe\Extensions\The_Bacon_Challenge;
 
+use TEC\Common\Contracts\Service_Provider;
+
 /**
  * Class Plugin
  *
@@ -8,7 +10,7 @@ namespace Tribe\Extensions\The_Bacon_Challenge;
  *
  * @package Tribe\Extensions\The_Bacon_Challenge
  */
-class Plugin extends \tad_DI52_ServiceProvider {
+class Plugin extends Service_Provider {
 	/**
 	 * Stores the version for the plugin.
 	 *

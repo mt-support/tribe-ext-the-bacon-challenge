@@ -14,6 +14,8 @@
  */
 namespace Tribe\Extensions\The_Bacon_Challenge;
 
+use TEC\Common\Contracts\Service_Provider;
+
 /**
  * Register Assets.
  *
@@ -21,7 +23,7 @@ namespace Tribe\Extensions\The_Bacon_Challenge;
  *
  * @package Tribe\Extensions\The_Bacon_Challenge
  */
-class Assets extends \tad_DI52_ServiceProvider {
+class Assets extends Service_Provider {
 	/**
 	 * Binds and sets up implementations.
 	 *
